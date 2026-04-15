@@ -14,6 +14,16 @@ This directory contains scripts used to benchmark two approaches for building th
 
 Nix is ~**11× faster** to set up and build, and uses ~**7× less disk space**.
 
+## Prerequisites (Ubuntu)
+
+To run the benchmark on your host machine you need QEMU and `cloud-image-utils`:
+
+```sh
+sudo apt install -y qemu-system-x86 qemu-utils cloud-image-utils wget
+```
+
+> **Using a different distro?** You're clearly smart enough to figure out the equivalent packages yourself. 😏
+
 ## How the Benchmark Was Run
 
 Each approach was tested in a fresh, isolated Ubuntu 24.04 (Noble) QEMU virtual machine to avoid any caching or pre-installed software influencing the results.
