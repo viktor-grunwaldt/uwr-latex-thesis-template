@@ -22,7 +22,7 @@ To run the benchmark on your host machine you need QEMU and `cloud-image-utils`:
 sudo apt install -y qemu-system-x86 qemu-utils cloud-image-utils wget
 ```
 
-> **Using a different distro?** You're clearly smart enough to figure out the equivalent packages yourself. 😏
+Other distributions ship equivalent packages under different names, which is left as an exercise for the reader.
 
 ## How the Benchmark Was Run
 
