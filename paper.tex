@@ -1,0 +1,49 @@
+% Opcje klasy 'iithesis' opisane są w komentarzach w pliku klasy. Za ich pomocą
+% ustawia się przede wszystkim język oraz rodzaj (lic/inż/mgr) pracy.
+\documentclass[shortabstract, inz, polish]{iithesis}
+%%%%% DANE DO STRONY TYTUŁOWEJ
+% Niezależnie od języka pracy wybranego w opcjach klasy, tytuł i streszczenie
+% pracy należy podać zarówno w języku polskim, jak i angielskim.
+% Pamiętaj o mądrym (zgodnym z logicznym rozbiorem zdania oraz estetyką) ręcznym
+% złamaniu wierszy w temacie pracy, zwłaszcza tego w języku pracy. Użyj do tego
+% polecenia \fmlinebreak.
+\polishtitle    {Mój tytuł}
+\englishtitle   {My Title}
+\polishabstract {
+	Lorem ipsum
+}
+\englishabstract{
+	Lorem ipsum
+}
+% w pracach wielu autorów nazwiska można oddzielić poleceniem \and
+\author         {Jan Kowalski}
+% w przypadku kilku promotorów, lub konieczności podania ich afiliacji, linie
+% w poniższym poleceniu można złamać poleceniem \fmlinebreak
+\advisor        {dr/prof Jan Kowalski}
+%\date          {}                     % Data złożenia pracy
+% Dane do oświadczenia o autorskim wykonaniu
+%\transcriptnum {}                     % Numer indeksu
+%\advisorgen    {dr. Jana Kowalskiego} % Nazwisko promotora w dopełniaczu
+%%%%%
+%%%%% WŁASNE DODATKOWE PAKIETY
+%
+%\usepackage{graphicx,listings,amsmath,amssymb,amsthm,amsfonts,tikz}
+%
+%%%%% WŁASNE DEFINICJE I POLECENIA
+%
+%\theoremstyle{definition} \newtheorem{definition}{Definition}[chapter]
+%\theoremstyle{remark} \newtheorem{remark}[definition]{Observation}
+%\theoremstyle{plain} \newtheorem{theorem}[definition]{Theorem}
+%\theoremstyle{plain} \newtheorem{lemma}[definition]{Lemma}
+%\renewcommand \qedsymbol {\ensuremath{\square}}
+% ...
+%%%%%
+\begin{document}
+%%%%% POCZĄTEK ZASADNICZEGO TEKSTU PRACY
+\chapter{Wprowadzenie}
+\ldots
+%%%%% BIBLIOGRAFIA
+%\begin{thebibliography}{1}
+%\bibitem{example} \ldots
+%\end{thebibliography}
+\end{document}
