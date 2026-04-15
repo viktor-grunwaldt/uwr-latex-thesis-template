@@ -70,3 +70,7 @@ nix build .#document
 ```
 
 The result will be in `./result/paper.pdf`.
+
+## Why Nix?
+
+The `microbench/` directory contains a benchmark comparing `nix build` against a traditional `apt install texlive-full` setup inside fresh Ubuntu VMs. Nix is ~11× faster to set up and ~7× leaner on disk. See [`microbench/README.md`](microbench/README.md) for the full methodology and results.
